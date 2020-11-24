@@ -1,3 +1,5 @@
 ./*cache*/
 .idea/
-
+les*
+*.zip
+*.tsv
