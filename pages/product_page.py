@@ -1,6 +1,7 @@
 ﻿from .base_page import BasePage
 from .locators import ProductPageLocators
 
+
 class ProductPage(BasePage): 
     def go_to_product_page(self):
         busket_button = self.browser.find_element(*ProductPageLocators.BTN_ADD_TO_BASKET)

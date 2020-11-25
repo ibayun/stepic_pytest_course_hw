@@ -1,8 +1,6 @@
-import pytest
-from selenium import webdriver
-from pages.main_page import MainPage
-from pages.login_page import LoginPage
-from pages.basket_page import BasketPage
+from .pages.main_page import MainPage
+from .pages.login_page import LoginPage
+from .pages.basket_page import BasketPage
 
 
 def test_guest_can_go_to_login_page(browser):
